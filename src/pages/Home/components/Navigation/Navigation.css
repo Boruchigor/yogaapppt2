@@ -1,0 +1,33 @@
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 70px;
+  
+
+
+}
+.nav a {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0 15px;
+    font-size: 1.5rem;
+    color: #4c411a;
+}
+.nav a:hover {
+    color: #361a4c;
+}
+.nav a:focus {
+    color: #83aa8d;
+}
+
+.nav li::after{
+    content: '|';
+    padding-right:2px;
+    font-size: 20px;
+}
+
+.nav li:nth-of-type(1)::before {
+    content: '|';
+    padding-right:2px;
+    font-size: 20px;
+}
